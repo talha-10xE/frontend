@@ -1,0 +1,5 @@
+{
+  "name": "Cats vs Dogs: The Ultimate Battle",
+  "description": "A fun, interactive daily voting web application where users can vote for cats or dogs and see live statistics on the ultimate pet battle.",
+  "requestFramePermissions": []
+}
