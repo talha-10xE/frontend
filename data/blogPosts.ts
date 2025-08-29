@@ -1,11 +1,11 @@
-
 import { BlogPost } from '../types';
 
 export const blogPosts: BlogPost[] = [
   {
     slug: '10-reasons-cats-are-better-than-dogs',
     title: '10 Reasons Cats Are Better Than Dogs',
-    excerpt: 'The debate is ancient, but the facts are clear. Here’s why felines are definitively the superior companions.',
+    excerpt:
+      'The debate is ancient, but the facts are clear. Here’s why felines are definitively the superior companions.',
     content: `
       <p class="mb-4">The age-old debate of cats versus dogs has passionate supporters on both sides. However, when you look at the evidence, it becomes clear that cats hold a certain edge. Here are ten reasons why cats make better pets than dogs.</p>
       <ol class="list-decimal list-inside space-y-4 mb-4">
@@ -23,14 +23,15 @@ export const blogPosts: BlogPost[] = [
       <p>Ready to join the winning team? <a href="#/" class="text-purple-600 hover:underline font-bold">Cast your vote for Team Cat now!</a></p>
     `,
     images: [
-      { src: 'https://picsum.photos/seed/catblog1/600/400', alt: 'A majestic cat sitting on a windowsill.' },
-      { src: 'https://picsum.photos/seed/catblog2/600/400', alt: 'A playful kitten chasing a toy.' }
+      { src: '/kingcat.jpeg', alt: 'A majestic cat sitting proudly like a king.' },
+      { src: '/catvsdog.jpeg', alt: 'Cats facing off against dogs in the ultimate showdown.' }
     ]
   },
   {
     slug: '10-reasons-dogs-are-better-than-cats',
     title: '10 Reasons Dogs Are Better Than Cats',
-    excerpt: 'Let’s be honest, dogs have rightfully earned the title of "man\'s best friend." Here’s the definitive list of why dogs rule.',
+    excerpt:
+      'Let’s be honest, dogs have rightfully earned the title of "man\'s best friend." Here’s the definitive list of why dogs rule.',
     content: `
       <p class="mb-4">While cats have their charms, dogs offer a level of companionship and joy that is simply unmatched. They are not just pets; they are family members. Here are ten solid reasons why dogs are superior to cats.</p>
       <ol class="list-decimal list-inside space-y-4 mb-4">
@@ -48,14 +49,15 @@ export const blogPosts: BlogPost[] = [
       <p>Convinced that dogs are the best? <a href="#/" class="text-orange-600 hover:underline font-bold">Vote for Team Dog and prove it!</a></p>
     `,
     images: [
-      { src: 'https://picsum.photos/seed/dogblog1/600/400', alt: 'A golden retriever happily playing fetch in a park.' },
-      { src: 'https://picsum.photos/seed/dogblog2/600/400', alt: 'A small puppy sleeping in a cozy bed.' }
+      { src: '/kingdog.jpeg', alt: 'A powerful dog standing tall like a king.' },
+      { src: '/catvsdog.jpeg', alt: 'Dogs and cats competing for the crown.' }
     ]
   },
   {
     slug: 'history-of-cats-vs-dogs-debate',
     title: 'The History of the Cats vs Dogs Debate',
-    excerpt: 'This isn\'t a new argument. We delve into the historical, cultural, and scientific roots of this timeless rivalry.',
+    excerpt:
+      "This isn't a new argument. We delve into the historical, cultural, and scientific roots of this timeless rivalry.",
     content: `
       <p class="mb-4">The rivalry between cat people and dog people is more than just a modern internet meme; it's a debate with deep historical and cultural roots. For millennia, these two species have lived alongside humans, playing very different roles in our societies.</p>
       <h3 class="text-2xl font-bold mt-6 mb-2">Ancient Roles</h3>
@@ -65,8 +67,8 @@ export const blogPosts: BlogPost[] = [
       <p>This long history has shaped our modern perceptions and continues to fuel the debate. Which side are you on? <a href="#/" class="text-green-600 hover:underline font-bold">Make your voice heard on the homepage!</a></p>
     `,
     images: [
-      { src: 'https://picsum.photos/seed/historyblog1/600/400', alt: 'An old painting depicting dogs on a hunt.' },
-      { src: 'https://picsum.photos/seed/historyblog2/600/400', alt: 'Egyptian hieroglyphs showing cats.' }
+      { src: '/catvsdog.jpeg', alt: 'An artistic representation of the cats vs dogs rivalry.' },
+      { src: '/kingcat.jpeg', alt: 'Ancient-style artwork of a revered cat.' }
     ]
   }
 ];
